@@ -502,12 +502,16 @@ h4,.h4{
 		padding-bottom:170px}}
 .hero-banner h1{
 	color:#fff;
-	margin-bottom:25px;
 	font-size:28px}
+.hero-banner p{
+	font-size:22px;
+	color:#fff;
+	margin-bottom:25px;}
 @media (min-width: 768px){
 	.hero-banner h1{
-		font-size:60px;
-		margin-bottom:45px}}
+		font-size:60px;}
+	.hero-banner p{
+		margin-bottom:45px;}}
 .hero-banner h2{
 	font-size:22px;
 	color:#fff;
@@ -516,10 +520,6 @@ h4,.h4{
 @media (min-width: 768px){
 	.hero-banner h2{
 		font-size:42px}}
-.hero-banner p{
-	font-size:22px;
-	color:#fff;
-	margin-bottom:0}
 .hero-banner-icon{
 	color:#fff;
 	display:inline-block}
