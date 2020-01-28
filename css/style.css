@@ -133,7 +133,7 @@ h4,.h4{
 .header_area .navbar .nav .nav-item .nav-link{
 	font-family:"Roboto",sans-serif;
 	color:#242424;
-	text-transform:capitalize;
+	/*text-transform:;*/
 	font-weight:400;
 	padding:33px 0;
 	display:inline-block}
