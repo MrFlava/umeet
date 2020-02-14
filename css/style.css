@@ -573,9 +573,9 @@ h4,.h4{
 		font-size:36px}}
 .section-intro-white>*{
 	color:#fff}
-.innovative-wrapper h3{
+.info-wrapper h3{
 	margin-bottom:25px}
-.innovative-wrapper p{
+.info-wrapper p{
 	margin-bottom:0}
 .clockdiv{
 	margin-bottom:35px}
@@ -651,14 +651,16 @@ h4,.h4{
 .card-feature:hover .feature-icon i,
 .card-feature:hover .feature-icon span{
 	color:#fff}
-.speaker-bg{
+.team-bg,
+.bot-bg{
 	background:linear-gradient(90deg, rgba(255,130,0,1) 0%, rgba(213,93,93,1) 100%);
 	background-size:cover}
-.card-speaker{
+.card-team, .card-bot{
 	border:10px solid #fff;
 	position:relative;
 	overflow:hidden}
-.card-speaker .speaker-footer{
+.card-team .team-footer,
+.card-bot .bot-footer{
 	position:absolute;
 	bottom:0;left:0;
 	width:100%;
@@ -666,17 +668,20 @@ h4,.h4{
 	background:rgba(59,29,130,0.9);
 	padding:22px 5px;
 	z-index:2;
-	transition:all .7s ease}.
-card-speaker .speaker-footer h4{
+	transition:all .7s ease}
+.card-team .team-footer h4,
+.card-bot .bot-footer h4{
 	margin-bottom:0;
 	color:#fff;
 	font-size:20px;
 	margin-bottom:3px}
-.card-speaker .speaker-footer p{
+.card-team .team-footer p,
+.card-bot .bot-footer p{
 	margin-bottom:0;
 	color:#fff;
 	font-size:14px}
-.card-speaker .speaker-overlay{
+.card-team .team-overlay,
+.card-bot .bot-overlay{
 	position:absolute;
 	top:0;
 	left:0;
@@ -688,35 +693,37 @@ card-speaker .speaker-footer h4{
 	opacity:0;
 	z-index:-1;
 	transition:all .6s ease}
-.card-speaker:hover .speaker-overlay{
+.card-team:hover .team-overlay,
+.card-bot:hover .bot-overlay{
 	opacity:1;
 	z-index:1;
 	transform:translateY(0)}
-.card-speaker:hover .speaker-footer{
+.card-team:hover .team-footer,
+.card-bot:hover .bot-footer{
 	background:rgba(234,7,99,0.6)}
-.speaker-social{
+.team-social{
 	position:absolute;
 	width:100%;
 	text-align:center;
 	top:50%;
 	left:50%;
 	transform:translate(-50%, -50%)}
-.speaker-social li{
+.team-social li{
 	display:inline-block}
-.speaker-social li i,
-.speaker-social li span{
+.team-social li i,
+.team-social li span{
 	font-size:14px;
 	color:#fff;
 	opacity:.7}
-.speaker-social li::after{
+.team-social li::after{
 	content:"|";
 	color:#ea0763;
 	margin-left:9px;
 	margin-right:7px}
-.speaker-social li:last-child::after{
+.team-social li:last-child::after{
 	display:none}
-.speaker-social li:hover i,
-.speaker-social li:hover span{
+.team-social li:hover i,
+.team-social li:hover span{
 	color:#fff;
 	opacity:1}
 .scheduleTab .nav{
@@ -956,20 +963,20 @@ card-speaker .speaker-footer h4{
 	background:#ea0763;
 	border-color:#ea0763;
 	color:#fff}
-.sponsor-bg{
+.client-bg{
 	background:url(../img/home/sponsor-bg.png) left center no-repeat;
 	background-size:cover}
-.sponsor-wrapper{
+.client-wrapper{
 	text-align:center;
 	max-width:950px;
 	margin-right:auto;
 	margin-left:auto}
-.sponsor-wrapper--small{
+.client-wrapper--small{
 	max-width:750px}
-.sponsor-title{
+.client-title{
 	text-transform:uppercase;
 	font-size:24px}
-.sponsor-single{
+.client-single{
 	border:5px solid #fff;
 	text-align:center;
 	padding:10px;
@@ -978,13 +985,13 @@ card-speaker .speaker-footer h4{
 	-o-transition:all 0.3s ease 0s;
 	transition:all 0.3s ease 0s;
 	height:140px;position:relative}
-.sponsor-single img{
+.client-single img{
 	position:absolute;
 	top:50%;left:50%;
 	transform:translate(-50%, -50%)}
-.sponsor-single:hover{
+.client-single:hover{
 	box-shadow:0px 5px 20px 0px rgba(10,9,13,0.15)}
-.sponsor-wrapper--small .sponsor-single{
+.client-wrapper--small .client-single{
 	height:120px}
 .gallery-bg{
 	background:linear-gradient(90deg, rgba(255,130,0,1) 0%, rgba(213,93,93,1) 100%);
